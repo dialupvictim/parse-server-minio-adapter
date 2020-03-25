@@ -4,12 +4,12 @@ parse-server file adapter for [MinIO](https://min.io/)
 
 # installation
 `
-yarn add /home/dima/IdeaProjects/parse-server-minio-adapter
+yarn add git://github.com/dialupvictim/parse-server-minio-adapter.git
 `
 
 *or*
 
-`npm install --save /home/dima/IdeaProjects/parse-server-minio-adapter`
+`npm install --save git://github.com/dialupvictim/parse-server-minio-adapter.git`
 
 # usage with parse server
 
