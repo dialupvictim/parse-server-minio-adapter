@@ -1,0 +1,31 @@
+{
+  "name": "minio-files-adapter",
+  "version": "1.0.5",
+  "description": "minio adapter for parse-server",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --cache ./",
+    "lint:fix": "eslint --fix --cache ./",
+    "test": "jest"
+  },
+  "repository": "git@github.com:dialupvictim/parse-server-minio-adapter.git",
+  "keywords": [
+    "parse-server",
+    "minio"
+  ],
+  "author": "Dmitry Temnov <dmtemnov@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dialupvictim/parse-server-minio-adapter/issues"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0",
+    "parse": "^2.11.0"
+  },
+  "dependencies": {
+    "minio": "^7.0.15"
+  }
+}
